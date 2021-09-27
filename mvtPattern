@@ -1,0 +1,52 @@
+# 웹 개발 디자인 패턴
+
+
+
+# mvc
+# 1. 가장 대중적
+                            model - 로그인한 정보 확인- 응답을 보내줌.데이터 제어
+# web page - 요청 - controller
+                            view - UI, HTML 제어
+
+
+# 장고 디자인 패턴 mvt(mtv) -
+
+
+#            요청                          model
+# web page              view(contrller)
+            응답                          Template  : view와 역할이 똑같다.
+
+# views.py
+
+orm 커리를 파이썬코드로 대체
+# MVC(Model View Controller) jAVA
+
+# Model : 데이터를 처리하며 데이터베이스와 상호 작용을 하는 역할을
+        담당하는 곳.
+# 기본적으로 DB의 복잡성에 얽매이지 않고 데이터와 상호작용을 한다.
+
+# View : 웹 브라우저에서 실제 사용자에게 표시되는 로직을 처리해
+#        그 결과를 UI로 나타내는 곳. ** 자바: view는 model에서 데이터 띄워달라고 요청??
+# Controller : view에서의 흐름을 처리하거나 Model에서
+#              데이터의 업데이트를 처리하는 로직을 제공.  ** 장고는 view에서 역할을 대신한다.
+
+    #js 관절이나 뇌 / css 색깔입히기
+
+ ex)
+크롬에 사용자가 구글페이지 띄워달라고 요청 -> Controller에서 캐치를 하고 구글에 페이지를 띄우기 위한 응답요청
+(Model, View)    - View 에서 html java .... 랜더링 -> Controller 에서 응답
+
+
+# MVT (Model View Template) Python Django MVC에서 보안된 형태
+# Model : 데이터를 처리하며 데이터베이스와 상호 작용을 하는 역할을
+        담당하는 곳.
+# 기본적으로 DB의 복잡성에 얽매이지 않고 데이터와 상호작용을 한다.
+
+# View : template에서의 흐름을 처리하거나 Model에서의 데이터의 흐름을 처리하는 곳
+#
+# Template  : 웹 브라우저에서 실제 사용자에게 표시되는 로직을 처리해
+#             그 결과를 UI로 나타내는 곳.
+
+접속을 했을 때 html만 뜨는 경우와 데이터가 함께...
+
+로컬서버영억 .... 인스타그램 서버 aws
